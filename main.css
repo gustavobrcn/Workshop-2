@@ -1,11 +1,43 @@
 body {
   margin: auto;
+  background-color: #55a65d;
 }
 
 h1 {
   background: #ea5169;
-  font-size: 42pt;
+  font-size: 48pt;
   display: block;
   text-align: center;
-  margin-top: 0;
+  margin-top: 2%;
+  font-family: sans-serif;
+}
+
+.info {
+  background: #ea5169;
+  font-family: sans-serif;
+  font-size: 14pt;
+  color: black;
+  border-image: url();
+  /* watermelon slices */
+}
+
+.watermelons {
+  display: grid;
+  grid-template: auto / repeat(3, 32%);
+  grid-gap: 2%;
+}
+
+.melon1 {
+  width: 65%;
+  height: 100%;
+}
+
+.melon2 {
+  width: 65%;
+  height: auto;
+}
+
+.melon3 {
+  width: 65%;
+  height: auto;
 }
